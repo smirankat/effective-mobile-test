@@ -1,14 +1,16 @@
 Follow these steps in terminal to run the application:
 
-1. docker-compose up
+1. npm install
 
-2. cd users-service
+2. docker-compose up
 
-3. npm start
+3. cd users-service
 
-4. cd ../logger-service
+4. npm start
 
-5. npm start
+5. cd ../logger-service
+
+6. npm start
 
 And then you can find the service pages at the following links:
 
