@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of events</title>
+</head>
+<body  style="width: 500px; margin: auto">
+    <h1>List of events for user with id {{userID}}</h1>
+    <table style="margin: 20px">
+        <tr><th>User ID</th><th>Type</th></tr>
+        {{#each events}}
+            <tr>
+                <td>{{this.user_id}}</td>
+                <td>{{this.type}}</td>
+            </tr>
+        {{/each}}
+    </table>
+    <a href="/">To the list of events</a> 
+</body>
+</html>

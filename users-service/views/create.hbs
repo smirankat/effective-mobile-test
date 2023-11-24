@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding user</title>
+    {{!-- <style>.field{width:180px;}</style> --}}
+    <link rel="stylesheet" href="/css/create-edit.css">
+</head>
+<body style="text-align: center">
+     <h1>Adding user</h1>
+     <form method="POST">
+        <label>Name</label><br>
+        <input name="name" class="field"/><br><br>
+        <label>Age</label><br>
+        <input name="age" type="number" class="field" min="1" max="110" /><br><br>
+        <button type="submit">Submit</button> 
+     </form>
+     <div>
+     <a href="/" >To the list of users</a> 
+     </div>
+</body>
+</html>
