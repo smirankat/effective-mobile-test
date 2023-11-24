@@ -2,7 +2,7 @@
 
 1. npm install
 
-2. docker-compose up      _```   //make sure docker is running```_
+2. docker-compose up      _```   // make sure docker is running```_
 
 3. cd users-service
 
