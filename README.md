@@ -1,8 +1,8 @@
-Follow these steps in terminal to run the application:
+**Follow these steps in terminal to run the application:**
 
 1. npm install
 
-2. docker-compose up
+2. docker-compose up      _```   //make sure docker is running```_
 
 3. cd users-service
 
@@ -12,7 +12,7 @@ Follow these steps in terminal to run the application:
 
 6. npm start
 
-And then you can find the service pages at the following links:
+**And then you can find the service pages at the following links:**
 
 http://localhost:5000/
 
